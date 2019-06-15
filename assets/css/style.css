@@ -44,9 +44,8 @@ h2 {
      position: relative;
      max-width: 960px;
      padding: 20px;
-     border: 10px solid #dddddd;
      background-image: url("/assets/images/swirl_pattern.png");
-    
+   
  }
 .about{
     position: relative;
@@ -54,6 +53,11 @@ h2 {
 
 img {
 float: left;
+}
+.container{
+    clear: both;
+    overflow: hidden;
+    float: none;
 }
 p {
     color: #777777;
@@ -66,13 +70,9 @@ button  {
     color: #ffffff;
    
 }
-.card {
-    
-    border:5px solid gray; 
-    margin: 0;
-    
+ 
    
-}
+
 .form-group  {
     clear: both;
     overflow: hidden;
@@ -85,9 +85,11 @@ button  {
 
 
 footer { 
- 
+    clear: both;
+    overflow: hidden;
     background-color: #666666;
     padding: 5px;
     border-top: 10px solid #4aaaa5;
+    margin-top: 30px;
 
 }
